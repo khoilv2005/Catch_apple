@@ -302,7 +302,8 @@
           }
         };
         xhr.responseType = 'arraybuffer';
-        xhr.open('GET', './assets/project.json?v=3');
+        xhr.open('GET', './assets/project.json');
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
         xhr.send();
       });
       })();
