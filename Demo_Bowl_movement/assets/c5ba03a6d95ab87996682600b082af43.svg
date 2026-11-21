@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="43" viewBox="0 0 98 43">
+ <rect x="2" y="2" width="94" height="39" rx="13" fill="#17AE64" stroke="#0A7743" stroke-width="3"/>
+ <path d="M14 11 L14 31 L34 21 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+ <text x="39" y="28.3" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">PLAY</text>
+</svg>
