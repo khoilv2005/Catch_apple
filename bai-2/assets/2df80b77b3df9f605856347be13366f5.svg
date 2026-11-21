@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="34" viewBox="0 0 108 34">
+      <rect x="1.5" y="2.5" width="105" height="29" rx="12" fill="#367AC9" stroke="#ffffff" stroke-width="2.2"/>
+      <rect x="2" y="2" width="104" height="9" rx="6" fill="#FFFFFF" opacity="0.16"/>
+      <path d="M41 18 L25 6 L25 14 L13 14 L13 22 L25 22 L25 30 Z" fill="white"/>
+      <text x="73.4" y="21.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">PHẢI</text>
+    </svg>
