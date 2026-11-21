@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
+    <rect x="3" y="3" width="394" height="214" rx="25" fill="#FFFFFF" stroke="#21A46A" stroke-width="6"/>
+    <rect x="17" y="17" width="366" height="42" rx="11" fill="#EAF3FF"/>
+    <text x="200" y="46" font-family="Arial,sans-serif" text-anchor="middle" font-weight="bold" font-size="21" fill="#1F75CD">TỔNG KẾT BÀI 1</text>
+    <text x="200" y="99" font-family="Arial,sans-serif" text-anchor="middle" font-size="19" font-weight="bold" fill="#33506C">Bạn trả lời đúng 4 / 5 câu</text>
+    <text x="200" y="153" font-family="Arial,sans-serif" text-anchor="middle" font-size="54" font-weight="bold" fill="#21A46A">4 / 5</text>
+    <text x="200" y="183" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" font-weight="bold" fill="#33506C">RẤT GIỎI! BẠN ĐÃ HOÀN THÀNH!</text>
+    <text x="200" y="201" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#64748B">Nhấn START hoặc STOP để làm lại</text>
+    </svg>

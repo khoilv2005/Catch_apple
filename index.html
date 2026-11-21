@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chọn bài tập</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f2f6fc;
+      color: #15223b;
+      font: 1rem/1.5 system-ui, sans-serif;
+    }
+
+    main {
+      width: min(38rem, calc(100% - 2rem));
+      margin: clamp(2rem, 10vh, 6rem) auto 2rem;
+    }
+
+    h1 {
+      margin: 0 0 1.5rem;
+      font-size: clamp(2rem, 6vw, 2.75rem);
+      line-height: 1.15;
+    }
+
+    ul {
+      display: grid;
+      gap: .75rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .exercise {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: .375rem 1rem;
+      min-height: 4.25rem;
+      padding: .875rem 1.25rem;
+      border: 1px solid #d7e1ef;
+      border-radius: .875rem;
+      background: #fff;
+      font-weight: 650;
+    }
+
+    .exercise span + span { font-size: .875rem; }
+    .pending { color: #52617a; }
+
+    a.exercise {
+      border-color: #214dc1;
+      background: #214dc1;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a.exercise:hover { background: #183c9e; }
+
+    a.exercise:focus-visible {
+      outline: 3px solid #214dc1;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Chọn bài tập</h1>
+    <ul role="list">
+      <li><a class="exercise" href="bai-1/index.html"><span>Bài tập 1</span><span>Làm bài</span></a></li>
+      <li><div class="exercise"><span>Bài tập 2</span><span class="pending">Chưa có nội dung</span></div></li>
+      <li><div class="exercise"><span>Bài tập 3</span><span class="pending">Chưa có nội dung</span></div></li>
+      <li><div class="exercise"><span>Bài tập 4</span><span class="pending">Chưa có nội dung</span></div></li>
+      <li><div class="exercise"><span>Bài tập 5</span><span class="pending">Chưa có nội dung</span></div></li>
+    </ul>
+  </main>
+</body>
+</html>
