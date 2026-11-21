@@ -137,6 +137,9 @@
     .sc-monitor-overlay .sc-monitor-root[data-opcode="data_variable"] .sc-monitor-value {
       min-width: 30px;
     }
+    #app .sc-question-text {
+      white-space: pre-line;
+    }
     .sc-monitor-row-value-outer {
       background-color: #fc662c;
     }
@@ -302,7 +305,7 @@
           }
         };
         xhr.responseType = 'arraybuffer';
-        xhr.open('GET', './assets/project.json?v=2');
+        xhr.open('GET', './assets/project.json?v=3');
         xhr.send();
       });
       })();
